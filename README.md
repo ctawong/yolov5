@@ -1,3 +1,11 @@
+Yolov5 detector modified to train  roblox bot mm2
+
+# Training instruction
+1. Create image directory `mm2_images/train` and `mm2_images/test`. Put training and test images and annotation files in.
+2. Start training by command
+`python train.py --img 640 --batch 12 --epochs 500 --data data/mm2.yaml --weights yolov5m.pt`
+3. The final weights are in `runs/train/exp#/weights`
+# 
 <a href="https://apps.apple.com/app/id1452689527" target="_blank">
 <img src="https://user-images.githubusercontent.com/26833433/98699617-a1595a00-2377-11eb-8145-fc674eb9b1a7.jpg" width="1000"></a>
 &nbsp
