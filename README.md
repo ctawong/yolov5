@@ -1,4 +1,4 @@
-Yolov5 detector modified to train  roblox bot mm2
+Yolov5 detector modified to train [RobloxBot for Murder Mystery 2](https://github.com/ctawong/RobloxBot)
 
 # Training instruction
 1. Create image directory `mm2_images/train` and `mm2_images/test`. Put training and test images and annotation files in.
